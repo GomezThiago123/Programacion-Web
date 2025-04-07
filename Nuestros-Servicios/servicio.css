@@ -1,0 +1,63 @@
+/* Estilos generales */
+.contenedor {
+  background-color: rgb(255, 255, 255);
+}
+
+p {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Nueva Sección: Nuestros Servicios */
+.servicios {
+  text-align: center;
+  margin-top: 40px; /* Espaciado superior para separar de la sección anterior */
+}
+
+.servicio {
+  display: inline-block;
+  margin: 20px;
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+.servicio img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Transición para el efecto hover */
+}
+
+.servicio img:hover {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen */
+}
+
+.servicio p {
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .servicio {
+    width: 100%; /* Las imágenes y los servicios ocupan todo el ancho en pantallas pequeñas */
+    margin: 10px 0;
+  }
+
+  .servicios {
+    padding: 0 10px;
+  }
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
