@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background-image: url("https://st4.depositphotos.com/1755195/22324/i/450/depositphotos_223247050-stock-photo-blank-blue-texture-surface-background.jpg");
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) /*300px 300px 300px;*/;
+
+  grid-auto-rows: auto;
+  /*auto-rows establece automaticamente el tamaño de las columnas*/
+  gap: 10px;
+}
+.cambio_de_color_letra {
+  color: white;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  /*height: 650px;*/
+  width: 500px;
+  cursor: pointer; /*Cursor pointer cambia el cursor por una mano*/
+}
+
+.Ft1 {
+  background-color: gray;
+}
+
+.Ft2 {
+  background-color: gray;
+}
+
+.Ft3 {
+  background-color: gray;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+/*Media query indica que cuando se llegue a ese tamaño o menos las
+clases que estan dentro de las llaves van a cambiar a lo que digan*/
+
+@media (max-width: 768px) {
+  .gird {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
