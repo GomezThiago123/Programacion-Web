@@ -1,6 +1,6 @@
 //Thiago Gomez 5ºB
 
-// Nivel 1: Ejercicios básicos
+// NIVEL 1: EJERCICIOS BÁSICOS
 //IF
 
 //Crear una variable con un número. Usar if para mostrar un mensaje si el número es mayor a 10.
@@ -59,3 +59,5 @@ for (let numero = 0; numero <= 4; numero++) {
   suma1 += numero;
 }
 console.log("La suma total del 0 al 4 es:", suma1);
+
+// NIVEL 2: EJERCICIOS DE DIFICULTAD MEDIA
