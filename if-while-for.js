@@ -63,8 +63,6 @@ console.log("La suma total del 0 al 4 es:", suma1);
 // EJERCICIOS DE DIFICULTAD MEDIA
 
 //IF
-
-//Si es menor que 0, mostrar "Negativo".
 const numero = 0;
 
 if (numero < 0) {
@@ -74,3 +72,13 @@ if (numero < 0) {
 } else {
   console.log("Positivo");
 }
+
+//FOR (VERSIÓN INTERMEDIA)
+let Numero = 0;
+
+for (let i = 0; i <= 10; i++) {
+  if (i % 2 === 0) {
+    suma1 += i;
+  }
+}
+console.log("la suma de pares es:", suma1);
