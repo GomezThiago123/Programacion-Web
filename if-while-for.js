@@ -60,4 +60,17 @@ for (let numero = 0; numero <= 4; numero++) {
 }
 console.log("La suma total del 0 al 4 es:", suma1);
 
-// NIVEL 2: EJERCICIOS DE DIFICULTAD MEDIA
+// EJERCICIOS DE DIFICULTAD MEDIA
+
+//IF
+
+//Si es menor que 0, mostrar "Negativo".
+const numero = 0;
+
+if (numero < 0) {
+  console.log("Negativo");
+} else if (numero === 0) {
+  console.log("Cero");
+} else {
+  console.log("Positivo");
+}
